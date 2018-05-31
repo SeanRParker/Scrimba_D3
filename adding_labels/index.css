@@ -4,9 +4,9 @@ body {
 svg{
   background: lightslategray;
 }
-/* svg rect{
-  fill: indianred;
-} */
+rect{
+  fill: darksalmon;
+}
 text {
   fill: peachpuff;
 }

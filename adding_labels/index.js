@@ -12,7 +12,7 @@ var barChart = svg.selectAll("rect")
   .data(dataset)
   .enter()
   .append("rect")
-  .style("fill", "salmon")
+  // .style("fill", "salmon")
   .attr("y", function (d) {
     return svgHeight - d
   })
@@ -39,4 +39,4 @@ var text = svg.selectAll("text")
     .attr("x", function(d, i) {
         return barWidth * i;
     })
-    .attr("fill", "salmon");
+    // .attr("fill", "salmon");
