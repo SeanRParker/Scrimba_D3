@@ -1,0 +1,12 @@
+body {
+  font-family: 'Arial';
+}
+svg{
+  background: lightslategray;
+}
+rect{
+  fill: darksalmon;
+}
+text {
+  fill: peachpuff;
+}
